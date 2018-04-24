@@ -216,5 +216,69 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  @media screen and (max-width: 980px){
+    .container{
+        max-width: 880px;
+    }
+    .main-section{
+        max-width: 600px;
+    }
+    .work {
+        width: 200px;
+    }    
+    .work img {
+        height: 150px;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+    .main-section{
+        max-width: 720px;
+    }
+    .work {
+        width: 300px;
+    }         
+    .work img {
+        height: 250px;
+    }
+  }
+
+  @media screen and (max-width: 640px){
+    header{
+        position: static;
+    }
+    .container{
+        max-width: 640px;
+        text-align: center;
+    }
+    #logo{
+        width: 100%;
+    }
+    nav{
+        float: none;
+        margin: 0 auto;
+        }
+    .main-section{
+        max-width: 500px;
+        float: none;
+        margin: 0 auto;
+        text-align: left;
+    }  
+    .work {
+        width: 300px;
+        float: none;
+        margin: 0px auto;
+    }           
+    .work img {
+        height: 200px;
+    }
+    .work:nth-child(even) {
+        margin: 0px auto;
+      }
+  }
   
 
